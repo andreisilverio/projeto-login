@@ -11,26 +11,15 @@ Desktop: 993px até 1200px
 Grandes telas: acima de 1201px
 */
 
-f94144
-f3722c
-f8961e
-f9844a
-f9c74f
-90be6d
-43aa8b
-4d908e
-577590
-277da1
-
-
-@media screen and (min-width:768px) and (max-width:992px) {
-
+@media screen and (min-width:769px) and (max-width:992px) {
+    
     body {
         background-image: linear-gradient(to top, #f9844a,  #f9c74f);
     }
 
     #login {
         width: 80vw;
+        height: 340px;
     }
 
     #imagem {
@@ -43,7 +32,24 @@ f9c74f
         float: right;
         width: 70%;
     }
+
+    #formulario h1 {
+        font-size: 1.4em;
+    }
+
+    #formulario p {
+        font-size: 1.1em;
+    }
+
+    .entrar {
+        font-size: 1.1em;
+    }
+
+    .botao {
+        font-size: 1.1em;
+    }
 }
+
 
 @media screen and (min-width:993px) {
 
@@ -53,16 +59,33 @@ f9c74f
 
     #login {
         width: 80vw;
+        height: 340px;
     }
 
     #imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     #formulario {
-        float: right;
+        float: left;
         width: 50%;
+    }
+
+    #formulario h1 {
+       font-size: 1.5em;
+    }
+    
+    #formulario p {
+        font-size: 1.2em;
+    }
+
+    .entrar {
+        font-size: 1.2em;
+    }
+
+    .botao {
+        font-size: 1.2em;
     }
 }
